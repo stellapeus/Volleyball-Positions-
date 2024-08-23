@@ -1,0 +1,19 @@
+h1{
+	color: purple;
+	text-align: center;
+	border-style: solid;
+	background-color: #6bd6b8;
+}	
+
+body {
+	background-color: lightBlue
+};
+#para1 {
+	width=60%
+}
+#para2 {
+	width=60%
+}
+#para4 {
+	width: 50%;
+}
