@@ -6,17 +6,28 @@ h1{
 }	
 
 body {
-	background-color: lightBlue
-};
-#para1 {
-	width=60%
+	background-color: lightBlue;
 }
-#para2 {
-	width=60%
-}
-#para4 {
-	width: 50%;
-}
+
 img {
 	width: 60%;
+}
+#p1 {
+	color: blue;
+}
+h2{
+  width: 100px;
+  height: 55px;
+  position: relative;
+  background-color: purple;
+  animation-name: title;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes title {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:0px;}
+  75%  {background-color:green; left:0px; top:0px;}
+  100% {background-color:red; left:0px; top:0px;}
 }
